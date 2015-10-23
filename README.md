@@ -1,8 +1,6 @@
 MILESTONE: TEST+ANALYSIS
 ------------------------
 
-Orignal Project: [okhttp](https://github.com/square/okhttp)
-
 ## TESTING
 ####  1: The ability to run unit tests, measure coverage, and report the results.
 
