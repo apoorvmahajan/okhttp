@@ -6,6 +6,7 @@ Orignal Project: [okhttp](https://github.com/square/okhttp)
 
 ####  1: The ability to run unit tests, measure coverage, and report the results.
 
+![Initial Code Coverage](https://github.com/apoorvmahajan/okhttp/blob/master/Screenshot/Screen%20Shot%202015-10-23%20at%205.39.27%20PM.png)
 
 ####  2: The ability to improve testing coverage.
 
