@@ -8,11 +8,11 @@ Orignal Project: [okhttp](https://github.com/square/okhttp)
 
 We used existing test cases of the project.
 Maven commands
-'''
+```
 compile
 cobertura:cobertura -Dcobertura.report.format=xml
 site
-'''
+```
 
 ![Code Coverage](https://github.com/apoorvmahajan/okhttp/blob/master/Screenshot/Screen%20Shot%202015-10-23%20at%205.39.27%20PM.png)
 
