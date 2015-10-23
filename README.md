@@ -34,6 +34,22 @@ This a low priority rule under the category BAD PRACTICE.
 
 
 ####  6: TThe ability to parse a code files and json files in order to detect the presence of AWS/digital ocean security tokens.
+We created a pre-commit hook, which checks for: .pem, .key, .ppk files.
+If it finds any of these file extensions, commit will be rejected.
+Else it will parse through each file to check for regex of aws key/ aws identifier and digital ocean key.
+```
+'(?<![A-Za-z0-9/+=])[A-Za-z0-9/+=]{40,80}(?![A-Za-z0-9/+=])'
+'(?<![A-Z0-9])[A-Z0-9]{20}(?![A-Z0-9])'
+```
+It also checks if line has "-----BEGIN RSA PRIVATE KEY-----".
+
+Code: [pre-commit hook](https://github.com/apoorvmahajan/okhttp/blob/master/pre-commit)
 
 
-Team Members: Apoorv Mahajan (amahaja3), Ankit Agrawal (aagrawa5), Shraddha Naik (sanaik2)
+
+<h3>Screencast </h3>
+
+Click here to watch the screencast.
+[![Click here to watch the screencast] (http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/4CTNIQw-mHg)
+
+###### Team Members: Apoorv Mahajan (amahaja3), Ankit Agrawal (aagrawa5), Shraddha Naik (sanaik2)
