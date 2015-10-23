@@ -290,5 +290,17 @@
       </build>
     </profile>
   </profiles>
+<reporting>
+<plugins>
+<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>findbugs-maven-plugin</artifactId>
+    <version>2.3.1</version>
+    <configuration>
+        <pluginList>/home/scouser/Desktop/publicmethods.jar</pluginList>
+    </configuration>
+</plugin>
+</plugins>
+  </reporting>
 </project>
 
