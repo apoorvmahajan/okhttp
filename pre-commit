@@ -3,6 +3,7 @@
 
 from subprocess import Popen, PIPE
 import sys
+import re
 
 def run(command):
     p = Popen(command.split(), stdout=PIPE, stderr=PIPE)
@@ -19,7 +20,7 @@ def main():
        return 1
     with open(fname) as f:
       for line in f:
-	if line is "-----BEGIN RSA PRIVATE KEY-----"
+	if line is "-----BEGIN RSA PRIVATE KEY-----":
             print("Commit failed: Keys in the commit")
             return 1
         mystring = line.split(" ")
