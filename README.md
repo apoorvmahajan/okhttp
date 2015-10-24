@@ -53,8 +53,9 @@ Else it will parse through each file to check for regex of aws key/ aws identifi
 ```
 It also checks if line has "-----BEGIN RSA PRIVATE KEY-----".
 
-Code: [pre-commit hook](https://github.com/apoorvmahajan/okhttp/blob/master/pre-commit)
-[![Click here to watch the screencast for the task 6] (http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/MGI4jVezfBs)
+Code: [pre-commit hook](https://github.com/apoorvmahajan/okhttp/blob/master/pre-commit).
+
+[![Click here to watch the screencast for the task 6] (http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/MGI4jVezfBs).
 
 
 #### Configuration files:
